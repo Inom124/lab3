@@ -6,7 +6,7 @@
 #include <limits.h>
 #include <signal.h>
 #include <unistd.h>
-int i = 0;
+//int i = 0;
 void* thread_func(void *arg) {
  pthread_setcancelstate(PTHREAD_CANCEL_DISABLE, NULL);
  for (i=0; i < 4; i++) {
@@ -27,4 +27,4 @@ int main(int argc, char * argv[]) {
  printf("The thread is stopped.\n");
 return EXIT_SUCCESS;
 } 
-//xaxa
+//inom1
